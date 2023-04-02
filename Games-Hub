@@ -1,0 +1,178 @@
+--GamesHub
+
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/usernamemusatTR/kavo-ui/main/kavo-ui", true))()
+local Window = Library.CreateLib("GamesHub 1.0v", "Synapse")
+ 
+--Uptade(Home)
+
+local Home = Window:NewTab("Home")
+local HomeSection = Home:NewSection("Update")
+
+HomeSection:NewButton("Coming Soon", "Coming Soon", function()
+print(Clicked)
+end)
+
+--Games
+
+local G = Window:NewTab("Games")
+local GSection = G:NewSection("MM2")
+GSection:NewButton("MM2", "Esp cham grabgun silent aim and more...(click and wait 1 minute)", function()
+local a,b,c,d=loadstring,request or http_request or (http and http.request) or (syn and syn.request),assert,"https://itsjidy.github.io/SymphonyHub/Loader.html"c(a and b, "Your Executor does not support.")a(b({Url=d,Method="GET"}).Body)()
+    print("Clicked")
+end)
+
+local GSection = G:NewSection("Westbound")
+GSection:NewButton("Westbound Hitbox", "Hitbox activated", function()
+loadstring(game:HttpGet(('https://pastefy.ga/9ZYKSX3Z/raw'),true))()
+    print("Clicked")
+end)
+
+local GSection = G:NewSection("Pet Simulator X")
+  GSection:NewButton("Pet Simulator X", "Autofarm and more...", function()
+   loadstring(game:HttpGet("https://raw.gitgubusercontent.com/Muhammad6196/Project-WD/main/Mainstring.lua"))()
+        print("Clicked")
+      end)
+
+      local GSection = G:NewSection("Infinite Yield")
+GSection:NewButton("Infinite yield", "Op admin commands", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+    print("Clicked")
+  end)
+
+  local GSection = G:NewSection("Evade")
+GSection:NewButton("Evade", "Esp Fullbright", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Babyhamsta/RBLX_Scripts/main/Evade/main.lua"))()
+    print("Clicked")
+  end)
+
+  local GSection = G:NewSection("Doors")
+GSection:NewButton("Doors", "Esp fullbright walkspeed and more...", function()
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/mstudio45/poopdoors_edited/main/poopdoors_edited.lua"),true))()
+    print("Clicked")
+  end)
+  GSection:NewButton("Rooms(Doors)", "Go auto A-1000", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/DaRealGeo/roblox/master/rooms-autowalk",true))();
+        print("Clicked")
+      end)
+
+  local GSection = G:NewSection("Arsenal")
+GSection:NewButton("Arsenal", "Aimbot silent aim rgb gun esp", function()
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/Maikderninja/Maikderninja/main/PWNERHUB.lua"), true))()
+print("Clicked")
+  end)
+
+--SUS
+
+  local Sus = Window:NewTab("Sus script")
+  local SusSection = Sus:NewSection("Sus script")
+  
+  SusSection:NewButton("Sus Script", "Sus +18", function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/Tescalus/Pendulum-Hubs-Source/main/Pendulum%20Hub%20V5.lua"))()
+      print("Clicked")
+    end)
+
+--Player
+
+----------------------------------------------------------------------------------------------------------------------------------------
+
+--Reset WS-JP
+
+local PlayerSection = Player: NewSection("Reset WS JP")
+
+PlayerSection:NewButton("Reset WP/JP", "Reset Walkspeed and Jumppower", function()
+  game.Players.LocalPlayer.Character.Humanoid.JumpPower = 50       game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 16
+    end)
+----------------------------------------------------------------------------------------------------------------------------------------
+
+local Player = Window:NewTab("Player")
+local PlayerSection = Player: NewSection("Player")
+
+PlayerSection:NewSlider("Walkspeed", "Speed", 500, 16, function(s) -- 500 (MaxValue) | 0 (MinValue)
+    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
+end)
+
+PlayerSection:NewSlider("JumpPower", "Jump", 350, 50, function(s) -- 350 (MaxValue) | 0 (MinValue)
+    game.Players.LocalPlayer.Character.Humanoid.JumpPower = s
+end)
+
+PlayerSection:NewButton("Walkspeed 25","WS 25", function()
+game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 25
+  end)
+
+PlayerSection:NewButton("Walkspeed 50","WS 50", function()
+  game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 50
+  end)
+
+PlayerSection:NewButton("Walkspeed 100","WS 100", function()
+game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 100
+  end)
+
+PlayerSection:NewButton("Walkspeed 250","WS 250", function()
+game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 250
+  end)
+
+PlayerSection:NewButton("Walkspeed 500","WS 500", function()
+game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 500
+  end)
+
+PlayerSection:NewButton("JumpPower 100","JP 100", function()
+game.Players.LocalPlayer.Character.Humanoid.JumpPower = 100
+  end)
+
+PlayerSection:NewButton("JumpPower 150","JP 150", function()
+game.Players.LocalPlayer.Character.Humanoid.JumpPower = 150
+  end)
+
+PlayerSection:NewButton("JumpPower 200","JP 200", function()
+game.Players.LocalPlayer.Character.Humanoid.JumpPower = 200
+  end)
+
+PlayerSection:NewButton("JumpPower 250","JP 250", function()
+game.Players.LocalPlayer.Character.Humanoid.JumpPower = 250
+  end)
+
+PlayerSection:NewButton("JumpPower 300","JP 300", function()
+game.Players.LocalPlayer.Character.Humanoid.JumpPower = 300
+  end)
+
+PlayerSection:NewButton("JumpPower 350","JP 350", function()
+game.Players.LocalPlayer.Character.Humanoid.JumpPower = 350
+  end)
+
+  --Other
+
+  local Other = Window:NewTab("Other")
+  local OtherSection = Other:NewSection("FE script")
+
+  OtherSection:NewButton("Fe super punch(Fling)", "(Fling)Some games working", function()
+  loadstring(game:HttpGet(('https://pastefy.ga/GvnHVjT5/raw'),true))()
+      print("Clicked")
+    end)
+
+    OtherSection:NewButton("Fe invisible", "İnvisible", function()
+      loadstring(game:HttpGet(('https://pastefy.ga/rI7bObT8/raw'),true))()
+      print("Clicked")
+    end)
+
+  local OtherSection = Other:NewSection("Other")
+
+ OtherSection:NewButton("Keyboard", "", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com//advxzivhsjjdhxhsidifvsh", true) )()  
+      print("Clicked")
+    end)
+
+--Credit
+
+local Credit = Window:NewTab("Credit")
+  local CreditSection = Credit:NewSection("Credit")
+ CreditSection:NewButton("usernamemusatTR", "Its me", function()
+  print(Clicked)
+ end)
+ local CreditSection = Credit:NewSection("Youtube")
+CreditSection:NewButton("usernamemusatTR", "Subscribe and Like", function()
+  print(Clicked)
+ end)
+local CreditSection = Credit:NewSection("Discord")
+CreditSection:NewButton("usernamemusatTR#9151", "Let's be friends :)", function()
+  print(Clicked)
+ end)
