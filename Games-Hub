@@ -144,14 +144,19 @@ game.Players.LocalPlayer.Character.Humanoid.JumpPower = 350
       print("Clicked")
     end)
 
-    OtherSection:NewButton("Fe invisible", "İnvisible", function()
+    OtherSection:NewButton("Fe invisible", "Invisible", function()
       loadstring(game:HttpGet(('https://pastefy.ga/rI7bObT8/raw'),true))()
+      print("Clicked")
+    end)
+
+    OtherSection:NewButton("Fe snake", "*Pss*", function()
+      loadstring(game:HttpGet(('https://pastefy.ga/tWBTcE4R/raw'),true))()
       print("Clicked")
     end)
 
   local OtherSection = Other:NewSection("Other")
 
- OtherSection:NewButton("Keyboard", "", function()
+ OtherSection:NewButton("Keyboard", "PC keyboard", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com//advxzivhsjjdhxhsidifvsh", true) )()  
       print("Clicked")
     end)
