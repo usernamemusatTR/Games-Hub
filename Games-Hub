@@ -72,14 +72,14 @@ print("Clicked")
     end)
 
 --Player
-
+local Player = Window:NewTab("Player")
 local PlayerSection = Player: NewSection("Reset WS JP")
 
 PlayerSection:NewButton("Reset WP/JP", "Reset Walkspeed and Jumppower", function()
   game.Players.LocalPlayer.Character.Humanoid.JumpPower = 50       game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 16
     end)
 
-local Player = Window:NewTab("Player")
+
 local PlayerSection = Player: NewSection("Player")
 
 PlayerSection:NewSlider("Walkspeed", "Speed", 500, 16, function(s) -- 500 (MaxValue) | 0 (MinValue)
