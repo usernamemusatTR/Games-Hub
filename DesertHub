@@ -1,7 +1,7 @@
---GamesHub
+--DesertHub
 
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/usernamemusatTR/kavo-ui/main/kavo-ui", true))()
-local Window = Library.CreateLib("GamesHub 1.0v", "Synapse")
+local Window = Library.CreateLib("DesertHub 1.0v", "Synapse")
  
 --Uptade(Home)
 
@@ -29,7 +29,13 @@ end)
 
 local GSection = G:NewSection("Pet Simulator X")
   GSection:NewButton("Pet Simulator X", "Autofarm and more...", function()
-   loadstring(game:HttpGet("https://raw.gitgubusercontent.com/Muhammad6196/Project-WD/main/Mainstring.lua"))()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Muhammad6196/Project-WD/main/Mainstring.lua"))()
+        print("Clicked")
+      end)
+      
+      local GSection = G:NewSection("Breaking Point")
+  GSection:NewButton("Breaking Point", "Autofarm hitbox fullbright", function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/ColdStep2/Breaking-Point-Funny-Squid-Hax/main/Breaking%20Point%20Funny%20Squid%20Hax",true))();
         print("Clicked")
       end)
 
@@ -160,16 +166,22 @@ game.Players.LocalPlayer.Character.Humanoid.JumpPower = 350
 loadstring(game:HttpGet("https://raw.githubusercontent.com//advxzivhsjjdhxhsidifvsh", true) )()  
       print("Clicked")
     end)
+    
+    OtherSection:NewButton("RTX Gui", "RTX", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/RTX%20Gui%20Hub%20Obfuscator'))()
+      print("Clicked")
+    end)
+    
+    OtherSection:NewButton("Admin Gui", "Admin commands P:(!)", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/fatesc/fates-admin/main/main.lua"))();
+      print("Clicked")
+    end)
 
 --Credit
 
 local Credit = Window:NewTab("Credit")
   local CreditSection = Credit:NewSection("Credit")
  CreditSection:NewButton("usernamemusatTR", "Its me", function()
-  print(Clicked)
- end)
- local CreditSection = Credit:NewSection("Youtube")
-CreditSection:NewButton("usernamemusatTR", "Subscribe and Like", function()
   print(Clicked)
  end)
 local CreditSection = Credit:NewSection("Discord")
